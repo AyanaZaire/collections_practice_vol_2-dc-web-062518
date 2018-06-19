@@ -33,7 +33,7 @@ def remove_non_strings(array)
   container 
 end
 
-def count_elements
+def count_elements(array)
   array.each do |original_hash|
     original_hash[:count] = 0
     name = original_hash[:name]
