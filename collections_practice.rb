@@ -45,7 +45,7 @@ def count_elements(array)
   end.uniq
 end
 
-def merge_data
+def merge_data(keys, values)
   container = []
   keys.each do |person_name|
     name = person_name[:first_name]
