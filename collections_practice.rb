@@ -26,7 +26,11 @@ def first_wa(array)
 end
 
 def remove_non_strings
-  
+ container = []
+  array.each do |element|
+    container << element if element.is_a?(String)
+  end
+  container 
 end
 
 def count_elements
