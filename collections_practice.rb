@@ -61,7 +61,11 @@ def merge_data
 end
 
 def find_cool
-  
+   container = []
+  array.each do |element|
+    container << element if element[:vibe] == "cool" 
+  end
+  container
 end
 
 def organize_schools
