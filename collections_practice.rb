@@ -63,7 +63,7 @@ end
 def find_cool
    container = []
   array.each do |element|
-    container << element if element[:vibe] == "cool" 
+    container << element if element[:temperature] == "cool" 
   end
   container
 end
